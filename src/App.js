@@ -47,7 +47,7 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter basename="sh">
+      <BrowserRouter basename="/sh/">
         <Header count={cartItems.length} />
         <Routes>
           <Route
